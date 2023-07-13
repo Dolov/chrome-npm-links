@@ -1,7 +1,23 @@
 {
   "manifest_version": 3,
   "name": "npm-links",
-  "description": "A plain text description",
-  "version": "1.0.1"
+  "description": "Query the relevant shortcut links of the NPM package，such as github、npm、homepage、github1s、stackoverflow",
+  "version": "1.0.1",
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "commands": {
+
+  },
+  "options_page": "options.html",
+  "background": {
+		"service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  ],
+  "homepage_url": "https://baidu.com"
 
 }
