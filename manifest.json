@@ -9,7 +9,6 @@
   "commands": {
 
   },
-  "options_page": "options.html",
   "background": {
 		"service_worker": "background.js"
   },
@@ -17,7 +16,8 @@
     "default_popup": "popup.html"
   },
   "permissions": [
+    "storage"
   ],
-  "homepage_url": "https://baidu.com"
+  "homepage_url": "https://github.com/Dolov/chrome-npm-links"
 
 }
