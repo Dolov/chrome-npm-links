@@ -4,7 +4,7 @@ const history = document.getElementById('history')
 const searchText = document.getElementById('search-text')
 const listContainer = document.getElementById('list-container')
 
-const NPM_URL = 'https://proxy.clickapaas.com/api/npm-search'
+const NPM_URL = 'https://proxy.freeless.cn/api/npm-search'
 const CACHE_NAME = 'npm-links-name-histroy'
 const ELEMENT_DATA_NAME = 'npm-name'
 const MAX_HISTORY_LENGTH = 20
